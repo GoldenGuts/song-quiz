@@ -25,18 +25,7 @@
 	top: 10px;
 }
 
-body{
-	display: flex;
-	justify-content: center;
-	background: white;
-}
-
-.height{
-	background-color: "rgba(255, 0, 0, .5)";
-	border-radius: 16px;
-	margin: 20px;
-}
-.texts{
+#textInsideButtons{
 	cursor: default;
 	color:black;
 	display: grid;
@@ -48,4 +37,7 @@ body{
 	-ms-user-select: none;
 	user-select: none;
 }
-	
+
+#btnFetchSongs{
+	margin-top: 40px;
+}
